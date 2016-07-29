@@ -1,5 +1,8 @@
 package es.cubel.gametiles.fragments;
 
+import android.app.Fragment;
+import android.view.View;
+
 /**
  * Created by cubel on 29/07/16.
  */
