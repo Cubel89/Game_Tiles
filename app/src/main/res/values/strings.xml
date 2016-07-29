@@ -1,3 +1,48 @@
 <resources>
+    <!-- Aplicacion -->
     <string name="app_name">Game Tiles</string>
+    <string name="action_settings">Opciones</string>
+    <!-- FIN Aplicacion -->
+
+    <!-- Alertas -->
+    <string name="boton_aceptar">Aceptar</string>
+    <string name="boton_cancelar">Cancelar</string>
+    <string name="boton_leido">Leído</string>
+
+    <string name="bluetooth">Bluetooth</string>
+    <string name="permisos_bluetooth">Permisos bluetooth</string>
+
+    <string name="dispositivo_no_bluetooth">Este dispositivo no dispone de bluetooth</string>
+    <string name="info_activar_bluetooth">Para poder buscar un dispostivo Arduino se necesitará activar el bluetooth</string>
+
+    <string name="titulo_politica_cookies">Política de Cookies</string>
+    <string name="texto_politica_cookies">Esta aplicación emplea cookies de Google para prestar sus servicios, personalizar anuncios y analizar el tráfico anónimamente.\nSi usas esta aplicación se sobreentiende que aceptas el uso de cookies.</string>
+
+    <!-- FIN Alertas -->
+
+    <!-- Menu -->
+    <string name="home_item">Home</string>
+    <string name="arduino_item">Arduino</string>
+    <string name="terminal_item">Terminal</string>
+    <string name="digital_item">Digital</string>
+    <string name="analogico_item">Analógico</string>
+    <string name="ordenes_item">Ordenes</string>
+    <string name="facturas_item">Facturas</string>
+    <string name="log_out_item">Cerrar Aplicación</string>
+    <string name="configuracion_item">Configuración</string>
+    <!-- FIN Menu -->
+
+    <!-- Home -->
+    <string name="alerta_no_bluetooth">Este dispositivo no dispone de bluetooth\nSe recomienda tener bluetooth para poder sacar el máximo provecho a esta app</string>
+    <string name="tv_info_home">Descarga o comparte el link de un archivo zip con el ejemplo para conectar Arduino con esta app a traves de los modulos Bluetooth HC-06 y HC-05.</string>
+    <!-- FIN Home -->
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Publicidad -->
+    <string name="publicidad_Intersticial_id">ca-app-pub-0007505393196705/1130419403</string>
+    <!-- Publicidad -->
+
 </resources>

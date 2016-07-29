@@ -1,14 +1,7 @@
 package es.cubel.gametiles.fragments;
 
-
-import android.content.DialogInterface;
-import android.os.Build;
 import android.os.Bundle;
-
-import android.support.design.widget.Snackbar;
 import android.support.v4.app.Fragment;
-import android.support.v7.app.AlertDialog;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -16,11 +9,10 @@ import android.widget.TextView;
 
 import es.cubel.gametiles.R;
 
-
 /**
  * Created by cubel on 29/07/16.
  */
-public class Home extends Fragment {
+public class Home2 extends Fragment {
     /**
      * Log
      */
@@ -34,7 +26,7 @@ public class Home extends Fragment {
     TextView txt_title;
 
 
-    public Home() {
+    public Home2() {
         // Required empty public constructor
     }
 

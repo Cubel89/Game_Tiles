@@ -1,11 +1,19 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-              xmlns:tools="http://schemas.android.com/tools"
-              android:layout_width="match_parent"
-              android:layout_height="match_parent"
-              tools:context="es.cubel.gametiles.fragments.Home"
-              android:orientation="vertical">
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="es.cubel.gametiles.fragments.Home"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="txt_title"
+        android:id="@+id/txt_title"
+        android:layout_gravity="center_horizontal"/>
 
     <ImageView
         android:layout_width="150dp"
@@ -25,27 +33,5 @@
         android:layout_marginRight="15dp"
         android:layout_marginLeft="15dp"
         android:gravity="center" />
-
-    <LinearLayout
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="25dp"
-        android:gravity="center_horizontal">
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_download_black_48dp"
-            android:id="@+id/btn_descargar"
-            android:layout_gravity="center_horizontal" />
-
-        <ImageButton
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:src="@mipmap/ic_share_black_48dp"
-            android:id="@+id/btn_compartir"
-            android:layout_gravity="center_horizontal" />
-    </LinearLayout>
 
 </LinearLayout>

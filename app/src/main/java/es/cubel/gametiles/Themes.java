@@ -11,12 +11,16 @@ public class Themes {
     // Claro
     String claro_fondo = "#ffffff";
     String claro_letras = "#000000";
-    String claro_barra_superior = "#303F9F";
+    String claro_barra_superior = "#1F515F";
+    String claro_barra_opciones = "#346D7D";
+    String claro_item_menu_seleccionado = "#346D7D";
 
     //Oscuro
     String oscuro_fondo = "#0e122e";
     String oscuro_letras = "#999999";
     String oscuro_barra_superior = "#070a1a";
+    String oscuro_barra_opciones = "#070A19";
+    String oscuro_item_menu_seleccionado = "#FFFFFF";
 
     public String getClaro_fondo() {
         return claro_fondo;
@@ -42,6 +46,22 @@ public class Themes {
         return oscuro_barra_superior;
     }
 
+    public String getClaro_item_menu_seleccionado() {
+        return claro_item_menu_seleccionado;
+    }
+
+    public String getOscuro_item_menu_seleccionado() {
+        return oscuro_item_menu_seleccionado;
+    }
+
+    public String getClaro_barra_opciones() {
+        return claro_barra_opciones;
+    }
+
+    public String getOscuro_barra_opciones() {
+        return oscuro_barra_opciones;
+    }
+
     public String get_color_texto(Boolean theme) {
         if (theme) {
             return getClaro_letras();
@@ -64,6 +84,22 @@ public class Themes {
             return getClaro_barra_superior();
         } else {
             return getOscuro_barra_superior();
+        }
+    }
+
+    public String get_color_barra_opciones(Boolean theme){
+        if (theme){
+            return getClaro_barra_opciones();
+        }else{
+            return getOscuro_barra_opciones();
+        }
+    }
+
+    public String get_color_item_seleccionado(Boolean theme){
+        if (theme){
+            return getClaro_item_menu_seleccionado();
+        } else {
+            return getOscuro_item_menu_seleccionado();
         }
     }
 }
