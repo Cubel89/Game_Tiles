@@ -1,7 +1,15 @@
 package es.cubel.gametiles.fragments;
 
+import android.app.AlertDialog;
 import android.app.Fragment;
+import android.content.DialogInterface;
+import android.os.Bundle;
+import android.support.design.widget.Snackbar;
+import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageButton;
 
 /**
  * Created by cubel on 29/07/16.
@@ -17,7 +25,6 @@ public class Home extends Fragment {
 
     //Variables
     private View view;
-    BluetoothAdapter bluetoothDispostivo;
 
 
     public Home() {
@@ -32,8 +39,8 @@ public class Home extends Fragment {
         view = inflater.inflate(R.layout.fragment_home, container, false);
 
         //Declaracion de componentes
-        ImageButton btn_descargar = (ImageButton) view.findViewById(R.id.btn_descargar);
-        ImageButton btn_compartir = (ImageButton) view.findViewById(R.id.btn_compartir);
+        //ImageButton btn_descargar = (ImageButton) view.findViewById(R.id.btn_descargar);
+        //ImageButton btn_compartir = (ImageButton) view.findViewById(R.id.btn_compartir);
 
 
         //Si el dispositivo no tiene bluetooth mostramos un mensaje
@@ -43,6 +50,7 @@ public class Home extends Fragment {
 
 
         //Pulsaciones de botones
+        /*
         btn_descargar.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -57,7 +65,7 @@ public class Home extends Fragment {
             public void onClick(View view) {
                 mostrar_cartel("Boton no funcional");
             }
-        });
+        });*/
 
         //Devolvemos la vista
         return view;
